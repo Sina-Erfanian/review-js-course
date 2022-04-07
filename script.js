@@ -134,3 +134,22 @@
 
 
 // medal("sina","ali","mmd","hasan","jasem","gholi","harchi")
+
+
+
+// let ul = document.querySelector("ul")
+
+// ul.addEventListener("click",(e)=> {
+// //    e.target.nodeName === "LI" && e.target.remove()
+// if(e.target.nodeName === "LI") {
+//     e.target.remove()
+// }
+// })
+
+
+const {multiply , plus , PI} = require("./math.js")
+
+
+console.log(multiply(2, 4));
+console.log(plus(2, 3));
+console.log(PI);
